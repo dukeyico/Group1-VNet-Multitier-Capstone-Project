@@ -14,7 +14,7 @@ This project builds a secure 3-tier cloud network on Azure:
 - **App subnet (application)** — reachable only from Web subnet
 - **DB subnet (database)** — reachable only from App subnet
 
-All resources are deployed using the included **Bash automation script** (`scripts/group1_multitier_deploy.sh`) which uses Azure CLI.
+All resources are deployed using the included **Bash automation script** (`Scripts/group1_multitier_deploy.sh`) which uses Azure CLI.
 
 ---
 
