@@ -85,5 +85,14 @@ All infrastructure components have been deployed and verified:
 
 **Back to main documentation:**  
 [Deployment Steps →](deployment-steps.md)
+---
+
+## Demo Video – Ping Test
+Click below to view the demo of WebVM pinging AppVM and DBVM:
+
+[▶️ Watch Ping Test Demo](media/ping-test-demo.mp4)
+---
+
+
 
 
