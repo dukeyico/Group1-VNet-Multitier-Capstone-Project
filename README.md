@@ -14,12 +14,12 @@ This project builds a secure 3-tier cloud network on Azure:
 - **App subnet (application)** — reachable only from Web subnet
 - **DB subnet (database)** — reachable only from App subnet
 
-All resources are deployed using the included **Bash automation script** (`Scripts/group1_multitier_deploy.sh`) which uses Azure CLI.
+All resources are deployed using the included **Bash automation script** [`Scripts/group1_multitier_deploy.sh`](Scripts/group1_multitier_deploy.sh) which uses Azure CLI.
 
 ---
 
 ## Architecture
-(see `docs/architecture-diagram.png` for a labeled diagram)
+(see [`docs/architecture-diagram.png`](docs/architecture-diagram.png) for a labeled diagram)
 
 Key components:
 - Virtual Network: `Group1VNet` (10.0.0.0/16)
@@ -36,3 +36,9 @@ Key components:
 3. Make script executable:
    ```bash
    chmod +x scripts/group1_multitier_deploy.sh
+   ```
+---
+
+**Detailed Deployment Guide:**  
+For full step-by-step instructions, see the [Deployment Steps Documentation](docs/deployment-steps.md).
+
