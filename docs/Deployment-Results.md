@@ -10,7 +10,7 @@ Each screenshot validates a specific stage of the setup — from resource creati
 **File:** `rg_list.png`  
 **Description:** Resource group successfully created in **UK South (uksouth)**.
 
-![Resource Group Created](../images/rg_list.png)
+![Resource Group Created](Screenshots/rg_list.png)
 
 ---
 
@@ -18,7 +18,7 @@ Each screenshot validates a specific stage of the setup — from resource creati
 **File:** `vnet_subnets.png`  
 **Description:** VNet (`Group1VNet`) created with three subnets: `WebSubnet`, `AppSubnet`, and `DBSubnet`.
 
-![VNet and Subnets](../images/vnet_subnets.png)
+![VNet and Subnets](Screenshots/vnet_subnets.png)
 
 ---
 
@@ -27,19 +27,19 @@ Each screenshot validates a specific stage of the setup — from resource creati
 **File:** `webnsg_rules.png`  
 **Description:** Inbound rules allow HTTP (port 80) and SSH (port 22) access from the internet.
 
-![WebNSG Rules](../images/webnsg_rules.png)
+![WebNSG Rules](Screenshots/webnsg_rules.png)
 
 ### AppNSG
 **File:** `appnsg_rules.png`  
 **Description:** Inbound rule allows traffic from WebSubnet (10.0.1.0/24) on port 80.
 
-![AppNSG Rules](../images/appnsg_rules.png)
+![AppNSG Rules](Screenshots/appnsg_rules.png)
 
 ### DBNSG
 **File:** `dbnsg_rules.png`  
 **Description:** Inbound rule allows traffic from AppSubnet (10.0.2.0/24) on port 3306.
 
-![DBNSG Rules](../images/dbnsg_rules.png)
+![DBNSG Rules](Screenshots/dbnsg_rules.png)
 
 ---
 
@@ -47,7 +47,7 @@ Each screenshot validates a specific stage of the setup — from resource creati
 **File:** `vm_ips.png`  
 **Description:** Displays private and public IPs of WebVM, AppVM, and DBVM.
 
-![VM IP Addresses](../images/vm_ips.png)
+![VM IP Addresses](Screenshots/vm_ips.png)
 
 ---
 
@@ -55,7 +55,7 @@ Each screenshot validates a specific stage of the setup — from resource creati
 **File:** `ssh_web.png`  
 **Description:** Shows successful SSH connection to WebVM using public IP.
 
-![SSH into WebVM](../images/ssh_web.png)
+![SSH into WebVM](Screenshots/ssh_web.png)
 
 ---
 
@@ -64,13 +64,13 @@ Each screenshot validates a specific stage of the setup — from resource creati
 **File:** `ping_app.png`  
 **Description:** Confirms network communication between Web and App tiers within the same VNet.
 
-![Ping AppVM](../images/ping_app.png)
+![Ping AppVM](Screenshots/ping_app.png)
 
 **Ping DBVM from WebVM**  
 **File:** `ping_db.png`  
 **Description:** Confirms communication between Web and Database tiers.
 
-![Ping DBVM](../images/ping_db.png)
+![Ping DBVM](Screenshots/ping_db.png)
 
 ---
 
@@ -84,4 +84,5 @@ All infrastructure components have been deployed and verified:
 ---
 
 **Back to main documentation:**  
-[Deployment Steps →](deployment-steps.md)
+[Deployment Steps →](docs/deployment-steps.md)
+
