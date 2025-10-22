@@ -1,0 +1,87 @@
+# Deployment Results – Group 1 Capstone Project
+
+## Overview
+This section presents the visual evidence of our successful Azure multi-tier deployment.  
+Each screenshot validates a specific stage of the setup — from resource creation to internal network connectivity.
+
+---
+
+## Resource Group Created
+**File:** `rg_list.png`  
+**Description:** Resource group successfully created in **UK South (uksouth)**.
+
+![Resource Group Created](../images/rg_list.png)
+
+---
+
+## Virtual Network and Subnets
+**File:** `vnet_subnets.png`  
+**Description:** VNet (`Group1VNet`) created with three subnets: `WebSubnet`, `AppSubnet`, and `DBSubnet`.
+
+![VNet and Subnets](../images/vnet_subnets.png)
+
+---
+
+## Network Security Groups (NSGs)
+### WebNSG
+**File:** `webnsg_rules.png`  
+**Description:** Inbound rules allow HTTP (port 80) and SSH (port 22) access from the internet.
+
+![WebNSG Rules](../images/webnsg_rules.png)
+
+### AppNSG
+**File:** `appnsg_rules.png`  
+**Description:** Inbound rule allows traffic from WebSubnet (10.0.1.0/24) on port 80.
+
+![AppNSG Rules](../images/appnsg_rules.png)
+
+### DBNSG
+**File:** `dbnsg_rules.png`  
+**Description:** Inbound rule allows traffic from AppSubnet (10.0.2.0/24) on port 3306.
+
+![DBNSG Rules](../images/dbnsg_rules.png)
+
+---
+
+## Virtual Machines – IP Addresses
+**File:** `vm_ips.png`  
+**Description:** Displays private and public IPs of WebVM, AppVM, and DBVM.
+
+![VM IP Addresses](../images/vm_ips.png)
+
+---
+
+## SSH Access to WebVM
+**File:** `ssh_web.png`  
+**Description:** Shows successful SSH connection to WebVM using public IP.
+
+![SSH into WebVM](../images/ssh_web.png)
+
+---
+
+## Internal Connectivity Tests
+**Ping AppVM from WebVM**  
+**File:** `ping_app.png`  
+**Description:** Confirms network communication between Web and App tiers within the same VNet.
+
+![Ping AppVM](../images/ping_app.png)
+
+**Ping DBVM from WebVM**  
+**File:** `ping_db.png`  
+**Description:** Confirms communication between Web and Database tiers.
+
+![Ping DBVM](../images/ping_db.png)
+
+---
+
+## Summary
+All infrastructure components have been deployed and verified:
+- Resource Group and VNet configuration
+- Subnets and NSGs applied correctly
+- VMs operational and reachable
+- Internal communication (Web → App → DB) verified  
+
+---
+
+**Back to main documentation:**  
+[Deployment Steps →](deployment-steps.md)
