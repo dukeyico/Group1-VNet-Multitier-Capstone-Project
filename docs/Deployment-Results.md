@@ -88,11 +88,6 @@ All infrastructure components have been deployed and verified:
 ---
 
 ## Demo Video – Ping Test
-Click below to view the demo of WebVM pinging AppVM and DBVM:
+[▶️ Watch Demo](https://drive.google.com/file/d/1AbCdEfGhIjKlMnO/view?usp=sharing)
 
-[▶️ Watch Ping Test Demo](media/ping-test-demo.mp4)
----
-
-
-
-
+> Demonstrates successful internal communication between Web, App, and DB tiers.
