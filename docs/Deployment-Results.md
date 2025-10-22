@@ -84,5 +84,6 @@ All infrastructure components have been deployed and verified:
 ---
 
 **Back to main documentation:**  
-[Deployment Steps →](docs/deployment-steps.md)
+[Deployment Steps →](deployment-steps.md)
+
 
