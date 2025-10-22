@@ -19,7 +19,7 @@ All resources are deployed using the included **Bash automation script** [`Scrip
 ---
 
 ## Architecture
-(see [`docs/architecture-diagram.png`](docs/LabeledArchtecturediagram.png) for a labeled diagram)
+(see [`docs/architecture-diagram.png`](docs/Labeled%20Architecture%20diagram.png) for a labeled diagram)
 
 Key components:
 - Virtual Network: `Group1VNet` (10.0.0.0/16)
