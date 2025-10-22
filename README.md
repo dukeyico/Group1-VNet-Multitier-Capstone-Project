@@ -46,3 +46,9 @@ For full step-by-step instructions, see the [Deployment Steps Documentation](doc
 **Detailed Deployment Result:**  
 See the [Deployment Results Documentation](docs/Deployment-Results.md).
 ---
+
+**Demo Video – Ping Test:**
+[▶️ Watch Demo](https://drive.google.com/file/d/1XanNFDHMRP0XttqW-nCK6lUBGf1cFllF/view?usp=sharing)
+
+> Demonstrates successful internal communication between Web, App, and DB tiers.
+---
